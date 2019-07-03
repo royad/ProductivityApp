@@ -1,0 +1,130 @@
+html, body {
+	height: 100%;
+}
+
+
+/* navbar */
+.navbar {
+	opacity: 0.5;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(0,0,0,1);
+}
+
+section {
+	padding: 10vh 10vh;
+}
+
+/* account page */
+
+table {
+	margin-top: 2%;
+}
+
+
+/* home page */
+
+.hero-header {
+	height:100%;
+	width:100%;
+	position: relative;
+}
+
+.hero-image {
+	background: url("../images/productivity.jpg") no-repeat center top;
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	position: absolute;
+	top:-56px;
+	z-index:-100;
+}
+
+.hero-arrow {
+	border: solid black;
+  	border-width: 0 8px 8px 0;
+	transform: rotate(45deg);
+  	-webkit-transform: rotate(45deg);
+  	display: inline-block;
+  	position: absolute;
+  	padding: 17px;
+  	left: 50%;
+  	top: 80%;
+  	cursor: pointer;
+}
+
+
+.fas:hover {
+	color: blue;
+}
+
+
+
+/* login page */
+.login-container-section {
+	height: 100%;
+	padding: 0;
+}
+
+.login-container {
+	height: 100%;
+}
+
+.login-image {
+	float: left;
+	width: 50%;
+	height:100%;
+}
+
+.login-image img {
+	height: 100%;
+}
+
+.login-form {
+	float: right;
+	width: 50%;
+    padding: 13% 0% 5% 5%;
+}
+
+.login-form > form {
+	width:60%;
+}
+
+/* sign up page */
+.signup-container-section {
+	height: 100%;
+	padding: 0;
+}
+
+.signup-container {
+	height: 100%;
+}
+
+.signup-image {
+	float: left;
+	width: 50%;
+	height:100%;
+}
+
+.signup-image img {
+	height: 100%;
+}
+
+.signup-form {
+	float: right;
+	width: 50%;
+    padding: 13% 0% 5% 5%;
+}
+
+.signup-form > form {
+	width:60%;
+}
+
+
+/* Footer */
+footer {
+	background-color: gray;
+	padding: 2% 2%;
+}
